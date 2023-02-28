@@ -335,7 +335,7 @@ echo ""
 echo -e "WEB SONYC SSH" | figlet | boxes -d stone -p a0v0 | lolcat
 echo -e "                              \033[1;31mModificado por @sonycssh\033[1;36m" | lolcat
 echo ""
-chave=$(curl -sSL "https://github.com/srSPEEDiness/PWEBTESTE/raw/main/install/chave") &>/dev/null
+chave=$(curl -sSL "https://raw.githubusercontent.com/srSPEEDiness/PWEBTESTE/main/install/chave") &>/dev/null
 
 read -p "DIGITE A CHAVE DE INSTALAÇÃO: " key
     
